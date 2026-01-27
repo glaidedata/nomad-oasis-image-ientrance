@@ -285,7 +285,7 @@ services:
       # - ./configs/nomad.yaml:/app/nomad.yaml
       - /srv/nomad/.volumes/fs:/app/.volumes/fs
       - /var/run/docker.sock:/var/run/docker.sock
-    user: "1000:991"
+    user: "1000:${DOCKER_GID}"
     command: python -m nomad.cli admin run hub
     healthcheck:
       test:
