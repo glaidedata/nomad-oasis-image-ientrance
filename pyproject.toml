@@ -27,7 +27,7 @@ dependencies = [
 
 
 [project.urls]
-repository = "https://github.com/FAIRmat-NFDI/nomad-distro-template"
+repository = "https://github.com/glaidedata/nomad-oasis-image-ientrance"
 
 [project.optional-dependencies]
 plugins = [
