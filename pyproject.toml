@@ -90,5 +90,9 @@ extra-index-url = [
 ]
 prerelease = "explicit"
 
+[tool.uv.extra-build-dependencies]
+# flatdict (dependency of pynxtools-em) needs setuptools for pkg_resources during build
+flatdict = ["setuptools"]
+
 [tool.setuptools.packages.find]
 exclude = ["gui*", "docs*", "config*"]
