@@ -24,6 +24,7 @@ dependencies = [
   "nomad-lab[infrastructure]>=1.4.0",
   "setuptools",
   "numpy<2.4",  # numba (required by pynxtools-em) needs numpy 2.3 or less
+  "flatdict<4.0.1",  # flatdict (required by pynxtools-em) 4.0.1 has build issues with pkg_resources
 ]
 
 
@@ -91,10 +92,6 @@ extra-index-url = [
 ]
 prerelease = "explicit"
 index-strategy = "unsafe-best-match"
-
-[tool.uv.extra-build-dependencies]
-# flatdict (dependency of pynxtools-em) needs setuptools for pkg_resources during build
-flatdict = ["setuptools"]
 
 [tool.setuptools.packages.find]
 exclude = ["gui*", "docs*", "config*"]
