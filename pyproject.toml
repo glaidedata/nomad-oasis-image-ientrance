@@ -23,6 +23,7 @@ license = { file = "LICENSE" }
 dependencies = [
   "nomad-lab[infrastructure]>=1.4.0",
   "setuptools",
+  "numpy<2.4",  # numba (required by pynxtools-em) needs numpy 2.3 or less
 ]
 
 
