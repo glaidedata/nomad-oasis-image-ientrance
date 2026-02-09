@@ -19,19 +19,13 @@ env:
   # If you want to include custom documentation, create a fork of the repo below and link the forked repo here
   NOMAD_DOCS_REPO: https://github.com/FAIRmat-NFDI/nomad-docs.git
   NOMAD_DOCS_REPO_REF: "main"
-  # If you want to skip the tests for some plugins, add them to the list below
+  # Skip example upload tests for pynxtools plugins (timeout issues with data processing)
   PLUGIN_TESTS_PLUGINS_TO_SKIP: |
-    workflowparsers
-    nomad_porous_materials
-    simulationworkflowschema
-    databaseparsers
-    soapnormalizer
-    eelsdbparser
-    atomisticparsers
-    nomad_aitoolkit
+    pynxtools_em
+    pynxtools_apm
+    pynxtools_mpes
+    pynxtools_ellips
     pynxtools_igor
-    electronicparsers
-    nomad_simulations
 
 permissions:
   contents: write
