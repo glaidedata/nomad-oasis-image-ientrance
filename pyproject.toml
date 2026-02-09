@@ -23,6 +23,8 @@ license = { file = "LICENSE" }
 dependencies = [
   "nomad-lab[infrastructure]>=1.4.0",
   "setuptools",
+  "numpy<2.4",  # numba (required by pynxtools-em) needs numpy 2.3 or less
+  "flatdict<4.0.1",  # flatdict (required by pynxtools-em) 4.0.1 has build issues with pkg_resources
 ]
 
 
@@ -31,33 +33,51 @@ repository = "https://github.com/glaidedata/nomad-oasis-image-ientrance"
 
 [project.optional-dependencies]
 plugins = [
-  # "perovskite-solar-cell-database @ git+https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git@v0.1.1",
-  # "nomad-porous-materials @ git+https://github.com/FAIRmat-NFDI/nomad-porous-materials.git@522f4a3208077f534f1c5e886527ee2104283d0b",
-  # "nomad-aitoolkit @ git+https://github.com/FAIRmat-NFDI/nomad-aitoolkit.git@b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8",
-  "nomad-simulations==0.5.0",
-  # "pynxtools==0.12.0",
-  # "pynxtools-apm>=0.4.2",
-  # "pynxtools-ellips>=0.1.1",
-  # "pynxtools-em>=0.4.2",
-  # "pynxtools-igor>=0.1.4",
-  # "pynxtools-mpes>=0.2.6",
-  # "pynxtools-raman>=0.1.1",
-  # "pynxtools-spm>=0.2.1",
-  # "pynxtools-xps>=0.5.4",
-  # "pynxtools-xrd>=0.0.7",
-  "nomad-schema-plugin-run>=1.0.1",
-  "nomad-schema-plugin-simulation-workflow>=1.0.1",
-  "nomad-normalizer-plugin-bandstructure>=1.0",
-  "nomad-normalizer-plugin-dos>=1.0",
-  "nomad-normalizer-plugin-soap>=1.0",
-  "nomad-normalizer-plugin-spectra>=1.0",
-  "nomad-normalizer-plugin-system>=1.0",
-  "nomad-normalizer-plugin-simulation-workflow>=1.0",
-  # "eelsdbconverter @ git+https://github.com/nomad-coe/nomad-parser-eelsdb.git@entry-point",
-  "nomad-parser-plugins-electronic>=1.0",
-  "nomad-parser-plugins-atomistic>=1.0",
-  "nomad-parser-plugins-workflow>=1.0",
-  "nomad-parser-plugins-database>=1.0",
+  # Simulations
+  "nomad-simulations==0.6.0",
+  # "nomad-simulation-apps==0.1.2",
+  "nomad-schema-plugin-run==1.0.5",
+  "nomad-schema-plugin-simulation-workflow==1.0.11",
+  "nomad-normalizer-plugin-bandstructure==1.0.4",
+  "nomad-normalizer-plugin-dos==1.0.6",
+  "nomad-normalizer-plugin-soap==1.0.2",
+  "nomad-normalizer-plugin-spectra==1.0.4",
+  "nomad-normalizer-plugin-system==1.0.5",
+  "nomad-normalizer-plugin-simulation-workflow==1.0.4",
+  "nomad-parser-plugins-electronic==1.0.13",
+  "nomad-parser-plugins-atomistic==1.0.10",
+  "nomad-parser-plugins-workflow==1.1.12",
+  "nomad-parser-plugins-database==1.1.3",
+
+  # Pynxtools readers
+  "pynxtools==0.12.0",
+  "pynxtools-apm==0.4.3",
+  "pynxtools-ellips==0.1.1",
+  "pynxtools-em==0.4.2",
+  "pynxtools-igor==0.1.4",
+  "pynxtools-mpes==0.2.6",
+  "pynxtools-raman==0.1.1",
+  "pynxtools-spm==0.2.1",
+  "pynxtools-xps==0.5.4",
+  "pynxtools-xrd==0.0.7",
+
+  # ELN INTEGRATIONS
+  "nomad-external-eln-integrations @ git+https://github.com/glaidedata/nomad-external-eln-integrations@feature/elabftw-extension",
+
+  # Domain-specific ELN and measurement plugins
+  "nomad-measurements == 1.3.5",
+  "nomad-material-processing == 1.0.5",
+  "nomad-analysis == 0.2.1",
+  #"nomad-catalysis==1.0.5",
+  #"nomad-neb-workflows==1.0.2",
+  #"nomad-unisyscat @ git+https://github.com/FAIRmat-NFDI/nomad-unisyscat-plugin.git@main",
+  #"nomad-tadf-molecules @ git+https://github.com/FAIRmat-NFDI/nomad-tadf-molecules@main",
+  #"nomad-polymerization-reactions @ git+https://github.com/FAIRmat-NFDI/nomad-polymerization-reactions@main",
+  #"nomad-camels-plugin @ git+https://github.com/FAIRmat-NFDI/nomad-camels-plugin.git@main",
+
+  # Materials and AI
+  # "nomad-auto-xrd @ git+https://github.com/FAIRmat-NFDI/nomad-auto-xrd@main",
+  # "bayesian-optimization-hpt @ git+https://github.com/ka-sarthak/bayesian-optimization-plugin.git@main",
 ]
 jupyter = ["jupyter-events"]
 gpu-action = []
@@ -68,8 +88,10 @@ dev = ["nomad-lab[infrastructure, dev]>=1.3.4"]
 [tool.uv]
 extra-index-url = [
   "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple",
+  "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple",
 ]
 prerelease = "explicit"
+index-strategy = "unsafe-best-match"
 
 [tool.setuptools.packages.find]
 exclude = ["gui*", "docs*", "config*"]
