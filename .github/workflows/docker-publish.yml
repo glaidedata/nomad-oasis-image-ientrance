@@ -20,12 +20,14 @@ env:
   NOMAD_DOCS_REPO: https://github.com/FAIRmat-NFDI/nomad-docs.git
   NOMAD_DOCS_REPO_REF: "main"
   # Skip example upload tests for pynxtools plugins (timeout issues with data processing)
+  # Skip simulationworkflowschema (missing pytest in plugin's test environment)
   PLUGIN_TESTS_PLUGINS_TO_SKIP: |
     pynxtools_em
     pynxtools_apm
     pynxtools_mpes
     pynxtools_ellips
     pynxtools_igor
+    simulationworkflowschema
 
 permissions:
   contents: write
