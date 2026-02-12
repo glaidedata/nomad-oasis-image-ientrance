@@ -28,6 +28,7 @@ env:
     pynxtools_ellips
     pynxtools_igor
     simulationworkflowschema
+    nomad_material_processing
 
 permissions:
   contents: write
