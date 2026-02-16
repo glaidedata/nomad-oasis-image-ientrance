@@ -43,7 +43,7 @@ plugins = [
   "nomad-normalizer-plugin-spectra==1.0.4",
   "nomad-normalizer-plugin-system==1.0.5",
   "nomad-normalizer-plugin-simulation-workflow==1.0.4",
-  "nomad-parser-plugins-electronic==1.0.13",
+  "nomad-parser-plugins-electronic==1.0.14",
   "nomad-parser-plugins-atomistic==1.0.10",
   "nomad-parser-plugins-workflow==1.1.12",
   "nomad-parser-plugins-database==1.1.3",
