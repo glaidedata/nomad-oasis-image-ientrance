@@ -20,6 +20,9 @@ oasis:
     - piera.maccagnani@cnr.it
     - alessandro.gradone@cnr.it
     - nicola.gilli@cnr.it
+    - sebastian.brueckner@physik.hu-berlin.de
+    - joseph.rudzinski@physik.hu-berlin.de
+    - abbas.gholami@glaidedata.com
 
 north:
   jupyterhub_crypt_key: "978bfb2e13a8448a253c629d8dd84ff89587f30e635b753153960930cad9d36d"
