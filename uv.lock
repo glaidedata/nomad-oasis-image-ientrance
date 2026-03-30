@@ -571,7 +571,7 @@ wheels = [
 [[package]]
 name = "characterization-utilities"
 version = "1.9.5"
-source = { git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=fix-fabrication-dep#c4ca6e89474957b865093572eab00ec12cbad51d" }
+source = { git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=oasis-integration#6e5f50e86222227e2cfc1fdc3666194976970722" }
 dependencies = [
     { name = "fabrication-utilities" },
     { name = "nomad-lab" },
@@ -3531,7 +3531,7 @@ plugins = [
 
 [package.metadata]
 requires-dist = [
-    { name = "characterization-utilities", git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=fix-fabrication-dep" },
+    { name = "characterization-utilities", git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=oasis-integration" },
     { name = "fabrication-utilities", git = "https://github.com/sd-fbk/Fabrication-utilities_dev.git" },
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
     { name = "nomad-analysis", marker = "extra == 'plugins'", specifier = "==0.2.1" },
