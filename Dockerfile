@@ -240,7 +240,7 @@ COPY --from=uv_image /uv /bin/uv
 RUN --mount=type=cache,target=/root/.cache/uv \
     --mount=type=bind,source=uv.lock,target=uv.lock \
     --mount=type=bind,source=pyproject.toml,target=pyproject.toml \
-    --mount=type=secret,id=GH_PAT \
+    --mount=type=secret,id=GH_PAT,mode=0444 \
     if [ -f /run/secrets/GH_PAT ]; then git config --global url."https://oauth2:$(cat /run/secrets/GH_PAT)@github.com/".insteadOf "https://github.com/"; fi && \
     # Use inexact to avoid removing pre-installed packages in the environment
     # Use no-install-project to skip installing the current project (`nomad-distribution`)
