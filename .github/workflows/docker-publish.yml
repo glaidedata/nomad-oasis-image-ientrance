@@ -17,7 +17,7 @@ env:
   PYTHON_VERSION: 3.12
   JUPYTER_VERSION: "2025-04-14"
   # If you want to include custom documentation, create a fork of the repo below and link the forked repo here
-  NOMAD_DOCS_REPO: https://github.com/FAIRmat-NFDI/nomad-docs.git
+  NOMAD_DOCS_REPO: https://github.com/glaidedata/nomad-docs-ientrance.git
   NOMAD_DOCS_REPO_REF: ""
   # Skip example upload tests for pynxtools plugins (timeout issues with data processing)
   # Skip simulationworkflowschema (missing pytest in plugin's test environment)
@@ -29,6 +29,11 @@ env:
     pynxtools_igor
     simulationworkflowschema
     nomad_material_processing
+    characterization_utilities
+    nomad_analysis
+    schema_packages
+    apps
+    example_uploads
 
 permissions:
   contents: write
@@ -55,6 +60,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
+      
+      - name: Authenticate Git for private repositories
+        run: git config --global url."https://oauth2:${{ secrets.GH_PAT }}@github.com/".insteadOf "https://github.com/"
 
       - name: Update lock file
         run: uv lock
@@ -96,6 +104,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
+      
+      - name: Authenticate Git for private repositories
+        run: git config --global url."https://oauth2:${{ secrets.GH_PAT }}@github.com/".insteadOf "https://github.com/"
 
       - name: Run plugin tests
         env:
@@ -166,6 +177,8 @@ jobs:
             NOMAD_DOCS_REPO=${{ env.NOMAD_DOCS_REPO }}
             NOMAD_DOCS_REPO_REF=${{ env.NOMAD_DOCS_REPO_REF }}
             JUPYTER_VERSION=${{ env.JUPYTER_VERSION }}
+          secrets: |
+            GH_PAT=${{ secrets.GH_PAT }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
           target: ${{ matrix.target }}
@@ -224,6 +237,9 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
+      - name: Authenticate Git for private repositories
+        run: git config --global url."https://oauth2:${{ secrets.GH_PAT }}@github.com/".insteadOf "https://github.com/"
+        
       - name: Install dependencies
         run: uv sync --all-extras
 

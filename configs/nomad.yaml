@@ -7,6 +7,22 @@ services:
 oasis:
   is_oasis: true
   uses_central_user_management: true
+  allowed_users:
+    - a.pedico@inrim.it
+    - d.pugliese@inrim.it
+    - a.airi@inrim.it
+    - i.murataj@inrim.it
+    - francescadechiara@cnr.it
+    - luisa.caracciuolo@cnr.it
+    - ferrario@fbk.eu
+    - alfredo.picano@cnr.it
+    - vittorio.morandi@cnr.it
+    - piera.maccagnani@cnr.it
+    - alessandro.gradone@cnr.it
+    - nicola.gilli@cnr.it
+    - sebastian.brueckner@physik.hu-berlin.de
+    - joseph.rudzinski@physik.hu-berlin.de
+    - abbas.gholami@glaidedata.com
 
 north:
   jupyterhub_crypt_key: "978bfb2e13a8448a253c629d8dd84ff89587f30e635b753153960930cad9d36d"
