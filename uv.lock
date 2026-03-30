@@ -571,7 +571,7 @@ wheels = [
 [[package]]
 name = "characterization-utilities"
 version = "1.9.5"
-source = { git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=oasis-integration#6e5f50e86222227e2cfc1fdc3666194976970722" }
+source = { git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=oasis-integration#5a2e924d3a53003fbb5e04c90f18700417da4b6d" }
 dependencies = [
     { name = "fabrication-utilities" },
     { name = "nomad-lab" },
@@ -1343,7 +1343,7 @@ wheels = [
 [[package]]
 name = "fabrication-utilities"
 version = "2.0.0"
-source = { git = "https://github.com/sd-fbk/Fabrication-utilities_dev.git#591dbde177168739f06b71c44697e3cb3d4bc0ba" }
+source = { git = "https://github.com/sd-fbk/Fabrication-utilities_dev.git?rev=oasis-integration#d0ebc2c6e22d9a720c9f4e5a9b46320dfddc23f4" }
 dependencies = [
     { name = "nomad-lab" },
     { name = "python-magic-bin", marker = "sys_platform == 'win32'" },
@@ -3532,7 +3532,7 @@ plugins = [
 [package.metadata]
 requires-dist = [
     { name = "characterization-utilities", git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=oasis-integration" },
-    { name = "fabrication-utilities", git = "https://github.com/sd-fbk/Fabrication-utilities_dev.git" },
+    { name = "fabrication-utilities", git = "https://github.com/sd-fbk/Fabrication-utilities_dev.git?rev=oasis-integration" },
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
     { name = "nomad-analysis", marker = "extra == 'plugins'", specifier = "==0.2.1" },
     { name = "nomad-external-eln-integrations", marker = "extra == 'plugins'", git = "https://github.com/glaidedata/nomad-external-eln-integrations?rev=feature%2Felabftw-extension" },
