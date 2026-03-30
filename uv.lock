@@ -571,7 +571,7 @@ wheels = [
 [[package]]
 name = "characterization-utilities"
 version = "1.9.5"
-source = { git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=oasis-integration#8239728d510484051392c45f622ad3613beb6c12" }
+source = { git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=oasis-integration#af4fb73785a11538ce5be5d9e325c9c30dda6752" }
 dependencies = [
     { name = "fabrication-utilities" },
     { name = "nomad-lab" },
