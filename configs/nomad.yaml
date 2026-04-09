@@ -125,6 +125,9 @@ oasis:
     - letizia.verdolotti@cnr.it
     - giovannagiuliana.buonocore@cnr.it
     - salvatoreethan.panasci@cnr.it
+    - fabiana.tescione@cnr.it
+    - marianna.pannico@cnr.it
+    - mariagrazia.raucci@cnr.it
 
 north:
   jupyterhub_crypt_key: "978bfb2e13a8448a253c629d8dd84ff89587f30e635b753153960930cad9d36d"
