@@ -23,6 +23,7 @@ oasis:
     - sebastian.brueckner@physik.hu-berlin.de
     - joseph.rudzinski@physik.hu-berlin.de
     - abbas.gholami@glaidedata.com
+    - "52de995e-b8b4-4884-b1f7-1b4f1507719b" # Added to allow user's App Token
     - enzo.rotunno@nano.cnr.it
     - giovanni.bertoni@nano.cnr.it
     - daniele.duranti@uniroma3.it
