@@ -51,10 +51,10 @@ plugins = [
   "nomad-parser-plugins-database==1.1.3",
 
   # Pynxtools readers
-  "pynxtools==0.12.0",
+  "pynxtools>=0.13.2",
   "pynxtools-apm==0.4.3",
   "pynxtools-ellips==0.1.1",
-  "pynxtools-em==0.4.2",
+  "pynxtools-em>=0.4.5",
   "pynxtools-igor==0.1.4",
   "pynxtools-mpes==0.2.6",
   "pynxtools-raman==0.1.1",
