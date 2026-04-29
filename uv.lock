@@ -1905,7 +1905,7 @@ wheels = [
 
 [[package]]
 name = "ifes-apt-tc-data-modeling"
-version = "0.4.1"
+version = "0.3.2"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "ase" },
@@ -1920,9 +1920,9 @@ dependencies = [
     { name = "tables", version = "3.10.2", source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }, marker = "python_full_version >= '3.11'" },
     { name = "xmltodict" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4f/0f/79969a005bc357f7610806d262f998356bef208f3c6e2c649e45fb2325f5/ifes_apt_tc_data_modeling-0.4.1.tar.gz", hash = "sha256:83fa6e932b4cc48cfe447bc95640a1b4f36ebb404e72f18001ffffeaa74ef096", size = 3979868, upload-time = "2026-03-20T20:24:42.695Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/34/78/4b7dfd75b018d38e837b8a88bd67db9834349bb2fb5da4ed56db3f8f01b5/ifes_apt_tc_data_modeling-0.3.2.tar.gz", hash = "sha256:d83a85e23fe54d419843a9569bb029d730dd2288831e0b74c42dcab9d37e2de0", size = 3953863, upload-time = "2025-10-06T18:11:00.895Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a5/4e/dcfed8ed4e9b85d09d825afef800c323bb105e9e3983fd5d156984708960/ifes_apt_tc_data_modeling-0.4.1-py3-none-any.whl", hash = "sha256:9b49090115d580dc3434539b9c9e46a4f3d8346be3e585088401c5eafb8c4a5e", size = 132912, upload-time = "2026-03-20T20:24:41.229Z" },
+    { url = "https://files.pythonhosted.org/packages/04/d2/595c51f96c3ddf385e5891831c44fa90754a15551987fc49bb6b20f393d4/ifes_apt_tc_data_modeling-0.3.2-py3-none-any.whl", hash = "sha256:8ddb712fab3783b82ba26ee4b575990ae394f3af03d77ce4a120cae5a8ba2941", size = 107153, upload-time = "2025-10-06T18:10:58.664Z" },
 ]
 
 [[package]]
@@ -3608,16 +3608,16 @@ requires-dist = [
     { name = "nomad-schema-plugin-simulation-workflow", marker = "extra == 'plugins'", specifier = "==1.0.11" },
     { name = "nomad-simulations", marker = "extra == 'plugins'", specifier = "==0.6.0" },
     { name = "numpy", specifier = "<2.4" },
-    { name = "pynxtools", marker = "extra == 'plugins'", specifier = "==0.13.2" },
-    { name = "pynxtools-apm", marker = "extra == 'plugins'", specifier = "==0.5.1" },
-    { name = "pynxtools-ellips", marker = "extra == 'plugins'", specifier = "==0.1.2" },
-    { name = "pynxtools-em", marker = "extra == 'plugins'", specifier = "==0.4.4" },
-    { name = "pynxtools-igor", marker = "extra == 'plugins'", specifier = "==0.1.5" },
-    { name = "pynxtools-mpes", marker = "extra == 'plugins'", specifier = "==0.2.7" },
-    { name = "pynxtools-raman", marker = "extra == 'plugins'", specifier = "==0.1.2" },
-    { name = "pynxtools-spm", marker = "extra == 'plugins'", specifier = "==0.2.4" },
-    { name = "pynxtools-xps", marker = "extra == 'plugins'", specifier = "==0.6.1" },
-    { name = "pynxtools-xrd", marker = "extra == 'plugins'", specifier = "==0.0.8" },
+    { name = "pynxtools", marker = "extra == 'plugins'", specifier = "==0.12.0" },
+    { name = "pynxtools-apm", marker = "extra == 'plugins'", specifier = "==0.4.3" },
+    { name = "pynxtools-ellips", marker = "extra == 'plugins'", specifier = "==0.1.1" },
+    { name = "pynxtools-em", marker = "extra == 'plugins'", specifier = "==0.4.2" },
+    { name = "pynxtools-igor", marker = "extra == 'plugins'", specifier = "==0.1.4" },
+    { name = "pynxtools-mpes", marker = "extra == 'plugins'", specifier = "==0.2.6" },
+    { name = "pynxtools-raman", marker = "extra == 'plugins'", specifier = "==0.1.1" },
+    { name = "pynxtools-spm", marker = "extra == 'plugins'", specifier = "==0.2.1" },
+    { name = "pynxtools-xps", marker = "extra == 'plugins'", specifier = "==0.5.4" },
+    { name = "pynxtools-xrd", marker = "extra == 'plugins'", specifier = "==0.0.7" },
     { name = "setuptools" },
 ]
 provides-extras = ["plugins", "jupyter", "gpu-action", "cpu-action", "dev"]
@@ -5376,7 +5376,7 @@ wheels = [
 
 [[package]]
 name = "pynxtools"
-version = "0.13.2"
+version = "0.12.0"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "anytree" },
@@ -5389,7 +5389,6 @@ dependencies = [
     { name = "lxml" },
     { name = "mergedeep" },
     { name = "numpy" },
-    { name = "orjson" },
     { name = "pandas" },
     { name = "pint", version = "0.24.4", source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }, marker = "python_full_version < '3.11'" },
     { name = "pint", version = "0.25", source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }, marker = "python_full_version >= '3.11'" },
@@ -5399,40 +5398,39 @@ dependencies = [
     { name = "xarray", version = "2025.6.1", source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }, marker = "python_full_version < '3.11'" },
     { name = "xarray", version = "2025.9.0", source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }, marker = "python_full_version >= '3.11'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b4/35/ab122b4f42a6fe9e3cfe1f46c23e2deab6be8112d2d0a5ff79dbfe686365/pynxtools-0.13.2.tar.gz", hash = "sha256:f86c77ce6873bc6ded55f4cc10ac7783b328720177e7ce2689091ad3e2ecffb9", size = 5342359, upload-time = "2026-03-27T10:59:00.277Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/37/84/22fabe423ee233c7a1e2dbd0adb07f331d6f2541d26e1b79253e4099ca5b/pynxtools-0.12.0.tar.gz", hash = "sha256:256f5a87cde4b0b673f17df24a5ca0701f89a82e14e6b630c3515761c5d6dee2", size = 5363625, upload-time = "2025-10-17T16:21:49.155Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b1/5d/75152e36df4a0c39a8a74b09ead303464530d50cbafdd3678ced1d0747ea/pynxtools-0.13.2-py3-none-any.whl", hash = "sha256:c47d9b51b36ec65593769bd2ad48168c744177185d12b755bb9d696c5e13d95a", size = 5722289, upload-time = "2026-03-27T10:58:56.855Z" },
+    { url = "https://files.pythonhosted.org/packages/92/b4/005eecd3794e5b882ab713188d16a65447d57ef738c86b7fe562d24126e9/pynxtools-0.12.0-py3-none-any.whl", hash = "sha256:ccae769db50e5e0467dea779b748111a6a6e5748d86aa7ba8d01b2457c8f8e7a", size = 5738386, upload-time = "2025-10-17T16:21:45.7Z" },
 ]
 
 [[package]]
 name = "pynxtools-apm"
-version = "0.5.1"
+version = "0.4.3"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "ifes-apt-tc-data-modeling" },
     { name = "pynxtools" },
-    { name = "pytz" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/65/be/d5fe79e2b82f2179d4a59a3aafb3ce99eaf01b79d1c6f3283ed941e465b5/pynxtools_apm-0.5.1.tar.gz", hash = "sha256:3dd433bf130b4933767c786fd0dcd317bc525fe4669ad68866f088f4c2b895e5", size = 71198, upload-time = "2026-03-24T13:12:26.576Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c6/d2/1a99f9d7c5a90e434cdbb0ab2d5382e057836eb25834b97720ccf1a7b8fc/pynxtools_apm-0.4.3.tar.gz", hash = "sha256:0887e389136c81204b47fc319d70145d3a0ebe8399e3e61b0037fb35f06c734c", size = 58497, upload-time = "2026-01-23T12:19:03.872Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/68/74/f26f8ce7da0b4ab1f7bb0d3192d6ee2a7cd184f82dd7411a563ce8a8d326/pynxtools_apm-0.5.1-py3-none-any.whl", hash = "sha256:01b6369f90636447a12bfa8cc554f271ef078fc0da64d7e92a6b639d7beccac0", size = 102861, upload-time = "2026-03-24T13:12:24.679Z" },
+    { url = "https://files.pythonhosted.org/packages/2b/d1/049c53908a033dd0ff42fdd6cae0a3bb73ca1c301e12530b6d9ac808809d/pynxtools_apm-0.4.3-py3-none-any.whl", hash = "sha256:21b89877a15b45d18179d52524bbcb64dd9caa06ac61f0f0f04dc073eefae9df", size = 85159, upload-time = "2026-01-23T12:19:02.323Z" },
 ]
 
 [[package]]
 name = "pynxtools-ellips"
-version = "0.1.2"
+version = "0.1.1"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "pynxtools" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d8/4f/e7c9dd1d59985a0b5f2da85cf19b72c1428fdbf1a8dc774d05c59a9fc216/pynxtools_ellips-0.1.2.tar.gz", hash = "sha256:e81915a1e9081ceed57f104404742f3da6ad0815934664607cbb740d6c6512a5", size = 131537, upload-time = "2026-03-22T17:07:56.951Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/94/64/e1f06a86a2b19a854a83aa2dc320c914808a5a3957f09e316411a5ff0cc6/pynxtools_ellips-0.1.1.tar.gz", hash = "sha256:f50e4ac6c460f5aa9ed476e590af52b81a55df84860f59e00509547e271237c6", size = 160155, upload-time = "2025-10-17T16:43:25.987Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/dd/32/a64c663afd4f3cfb039bb909aeac2fcda5c1d391f34b8a80bb2141a9b8c4/pynxtools_ellips-0.1.2-py3-none-any.whl", hash = "sha256:b68f5ba0bd5c48f2879a24347caac4b1c5dfad61a7ffaf0d1b1f076b166ff93b", size = 139877, upload-time = "2026-03-22T17:07:55.5Z" },
+    { url = "https://files.pythonhosted.org/packages/55/78/e1f04d89c531abe2d12c6521a888a0be1b683eedb7c8f44dc78cb9c2b9bb/pynxtools_ellips-0.1.1-py3-none-any.whl", hash = "sha256:e8caea4374940290530999421500b7152286fd0fd88e699af5e93b5c1bb1c0ba", size = 166441, upload-time = "2025-10-17T16:43:24.581Z" },
 ]
 
 [[package]]
 name = "pynxtools-em"
-version = "0.4.4"
+version = "0.4.2"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "flatdict" },
@@ -5447,53 +5445,53 @@ dependencies = [
     { name = "xmltodict" },
     { name = "xraydb" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/af/90/bc545f50e55a2f2fbecf483bfa302e6ddfab122508e70c78c358c96d618e/pynxtools_em-0.4.4.tar.gz", hash = "sha256:813875ba0de81abfad212e0400f64588a9b4a246fcc81a3291b6b9afd0a5354d", size = 143778, upload-time = "2026-03-24T13:18:18.444Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/64/71/7bb926e5128af0c8ec42666e9f5f362b7144911c89993512abe6a361b253/pynxtools_em-0.4.2.tar.gz", hash = "sha256:f29b4f0cbbb74da74bff5d71547756023b31607398e9e24b6ce097f04c74b1f9", size = 133397, upload-time = "2025-10-17T16:32:21.38Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/76/43/a0c639fa42e10825d5c56924cc71e50b6635c39e733b7e60b6f162d60728/pynxtools_em-0.4.4-py3-none-any.whl", hash = "sha256:8930963039f782e07491a00fbcf1ee6c4c1ac1f2140c3f083b943e8173fb3d93", size = 235964, upload-time = "2026-03-24T13:18:16.837Z" },
+    { url = "https://files.pythonhosted.org/packages/75/86/23c7cf641bfcf4b05ac6bb8cadfcfa42ddb862797b0691dc537c7e18fddf/pynxtools_em-0.4.2-py3-none-any.whl", hash = "sha256:0f54456fe0527b88f1ddab03ddb0571da8e0e6e0f28c0d1959a66cb78399a2ea", size = 225064, upload-time = "2025-10-17T16:32:20.147Z" },
 ]
 
 [[package]]
 name = "pynxtools-igor"
-version = "0.1.5"
+version = "0.1.4"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "igor2" },
     { name = "pynxtools" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/33/de/d1051e38f9359813fb5ee1392df2080a661ac0d5e90d2b687a7dcbcce016/pynxtools_igor-0.1.5.tar.gz", hash = "sha256:2fb1423c3078e1947dfa8d2cb660d228bb7b7d9d54db554da7cabe1c0a2cb9d0", size = 8836965, upload-time = "2026-03-20T18:28:00.439Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/2b/ac/88d3b4c35211ea03625784f29739c75487e87df73b53f01cc4483fa7ab7d/pynxtools_igor-0.1.4.tar.gz", hash = "sha256:670596689de888fe65c7506545471c200460a77220673e1d2bfb2e07b5adec67", size = 8835394, upload-time = "2025-10-17T17:04:24.26Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1b/6d/8794a35399e49e56eee759ce97d12cee1f945215ea1f4ba41853a26f92e1/pynxtools_igor-0.1.5-py3-none-any.whl", hash = "sha256:d001e57a554ac25a6b84c86e273f8dd115c83ac9c2438b5e5da0f5c273023d94", size = 8833006, upload-time = "2026-03-20T18:27:57.684Z" },
+    { url = "https://files.pythonhosted.org/packages/06/18/9cda7e761ed567f99a6924fa775056815a0814ea1bc260dff9cefd2cf3d4/pynxtools_igor-0.1.4-py3-none-any.whl", hash = "sha256:a1159952f6e84b80dd497e9d9ac05732c9f3c5b873f97a19d5d0c61355732273", size = 8827727, upload-time = "2025-10-17T17:04:21.96Z" },
 ]
 
 [[package]]
 name = "pynxtools-mpes"
-version = "0.2.7"
+version = "0.2.6"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "pynxtools" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/53/54/ee1023e82c50557ec77bcf34a74ddee31c52e3338e5216650c1819119515/pynxtools_mpes-0.2.7.tar.gz", hash = "sha256:d95204acb39e265f98f714b972603654fb6bfea18e36d36090dea06df0f8b2e1", size = 34039, upload-time = "2026-03-20T18:38:44.841Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/48/ce/3ce289782799924c3051cd2974041a10b01fdc0309aab013e558fc85f170/pynxtools_mpes-0.2.6.tar.gz", hash = "sha256:34fd23bcf14b4ddd5c1871fbd24ee2ae7d44aa1d85ec424bfa2ae6f283819061", size = 33347, upload-time = "2025-10-17T17:22:33.426Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a7/7c/cc3dc422185afd6f4cdaca0545ca413591681e8371b8147436320b8e6e30/pynxtools_mpes-0.2.7-py3-none-any.whl", hash = "sha256:b3077a2452aff401006c2ace7a40998a2efe523171af2feac542a6c66427adfa", size = 42796, upload-time = "2026-03-20T18:38:43.679Z" },
+    { url = "https://files.pythonhosted.org/packages/97/df/d4286f75c131de09e057623f2bd04497ca03c857fe58b2713ac308273fe5/pynxtools_mpes-0.2.6-py3-none-any.whl", hash = "sha256:0d591275c8e27192bc58c44bc9e42b070905ec46d2bcb75c81f8f8508bcb8493", size = 40413, upload-time = "2025-10-17T17:22:32.312Z" },
 ]
 
 [[package]]
 name = "pynxtools-raman"
-version = "0.1.2"
+version = "0.1.1"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "gemmi" },
     { name = "pynxtools" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7e/7c/86e70dae5f0a7b134155f690868bef195a6c8fd81df497955add83e66410/pynxtools_raman-0.1.2.tar.gz", hash = "sha256:b333aa69429c6616fd81b5580f00c9a7e48392a3c4d6a1aedd9a0307ee2985fb", size = 20142, upload-time = "2026-03-22T17:11:20.423Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/27/d5/3aab0e4b7e67e8a0858d8b7b7758bf1b82387a79c7a85fa6c08610170042/pynxtools_raman-0.1.1.tar.gz", hash = "sha256:59aff7b472b578aa95b31c7f80528abb7fe81c52aa24d981769ec84ab5ece999", size = 20098, upload-time = "2025-10-17T16:44:33.452Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6c/ab/bed13c97312907c8419da19120c39025cb20c4cc418014351b71b3dcae02/pynxtools_raman-0.1.2-py3-none-any.whl", hash = "sha256:baed83eadf64d41fbb0e271ec377ccf85ceefcfe2e6f0d9ab20ed71a64744d5e", size = 27989, upload-time = "2026-03-22T17:11:19.241Z" },
+    { url = "https://files.pythonhosted.org/packages/63/90/6d3cbe092dbadf241c7f32485f93c066bd6248c47b42f67a8814ceb1da74/pynxtools_raman-0.1.1-py3-none-any.whl", hash = "sha256:6fe3124b631dee8cef7a01e8e48e44a30a9f5d933bfb618a7a4c51e9fd487c77", size = 26950, upload-time = "2025-10-17T16:44:32.091Z" },
 ]
 
 [[package]]
 name = "pynxtools-spm"
-version = "0.2.4"
+version = "0.2.1"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "findiff" },
@@ -5505,39 +5503,37 @@ dependencies = [
     { name = "spym" },
     { name = "tzlocal" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/68/10/e395f6eca7c90d60f748a7f0feb95ce205a72adf0efc394f7e56758761e9/pynxtools_spm-0.2.4.tar.gz", hash = "sha256:a41e679c4b57ce8f31e8e809b9f94b8374f2a18db9a9b2d292b8a66639d1d45d", size = 1630207, upload-time = "2026-03-24T13:02:46.416Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d7/01/44de9cdf7620e86af90b8616b2dadcb1fb86946e8f6c23237651dd6d9a1b/pynxtools_spm-0.2.1.tar.gz", hash = "sha256:fa67da4a953061e68613f11f716c3bc94ae90cc12d686f5cc10439684085f5de", size = 1629940, upload-time = "2025-10-19T11:42:52.309Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ae/b3/2998404610ceabd0a9fddbcfc347977b95479c29b4daecd3a6567c722e32/pynxtools_spm-0.2.4-py3-none-any.whl", hash = "sha256:0525a8e0b5d158ae8a2d728f9b1df2767fdc892f52985639ff616a6f67a456e7", size = 1657775, upload-time = "2026-03-24T13:02:44.279Z" },
+    { url = "https://files.pythonhosted.org/packages/e8/3c/7741d06ce0643104096dae210aa1964e7f964841a68f4a5a595dbcbb1be0/pynxtools_spm-0.2.1-py3-none-any.whl", hash = "sha256:df6c894870cd8aa45a26b7d4b7f15422b5d4c96c1a206bf3c61aab06c8b8cfd3", size = 1656683, upload-time = "2025-10-19T11:42:50.452Z" },
 ]
 
 [[package]]
 name = "pynxtools-xps"
-version = "0.6.1"
+version = "0.5.4"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "igor2" },
     { name = "jsonschema" },
     { name = "pynxtools" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7a/2a/c82c32eba413c1dfec9b650296e3b623783972e5a3895a4315d86a6deb03/pynxtools_xps-0.6.1.tar.gz", hash = "sha256:9ab5ee9b1bcbce73c5f6ee0bf16d89c09dacad92fd15b7eae29822836fb5249f", size = 5516119, upload-time = "2026-03-24T18:54:08.964Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a1/2a/30325f4e0d3fe365b0b92b75dfe188f98a83b14a086c4cda957fef34e842/pynxtools_xps-0.5.4.tar.gz", hash = "sha256:2ec0aad533b41a0ce4fc837e2449d1e197bd145f4815eb563c516efce461926a", size = 5501872, upload-time = "2025-10-17T17:21:36.197Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f5/8c/5a7daa99afc48bf1cb759648aec97b1bd2e0d0e1621fee8025541eede4f8/pynxtools_xps-0.6.1-py3-none-any.whl", hash = "sha256:bb24bae04d3d09b662bd15a5d4c6c2ed9b9dcc7114d2ecf3951488bd233bccad", size = 5610485, upload-time = "2026-03-24T18:54:06.498Z" },
+    { url = "https://files.pythonhosted.org/packages/62/cf/48d192bfccbc18d328eb65a16601424dbb8578a05d10288089d0253e7c41/pynxtools_xps-0.5.4-py3-none-any.whl", hash = "sha256:9f3cbafa6455591b17561441d52b47e3e7319c3fe584cb413e6d63d8d903dceb", size = 5578959, upload-time = "2025-10-17T17:21:34.221Z" },
 ]
 
 [[package]]
 name = "pynxtools-xrd"
-version = "0.0.8"
+version = "0.0.7"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "fairmat-readers-xrd" },
-    { name = "flatdict" },
-    { name = "numpy" },
     { name = "pynxtools" },
     { name = "xmltodict" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e2/cf/d4b09bbfbd1c0fde3286a7d4c267fef83d29124d87c04722535e800d53ad/pynxtools_xrd-0.0.8.tar.gz", hash = "sha256:0c2b04fa7ab1425218b607542293072d81157eb4a069a334a30c158f24a0aac4", size = 11014, upload-time = "2026-03-20T22:22:01.804Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/91/df/8b6ead1da8a081e4bcfd015e90a212cd65f01d721b8173f77f21017008b6/pynxtools_xrd-0.0.7.tar.gz", hash = "sha256:9fe27c89935150b46ab65f32537ab186969c88ca231dfd300f66b4a84f62f169", size = 224273, upload-time = "2025-10-18T10:49:48.152Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6c/de/c7d03d11b2d0652379dcf8abc904cd13862e4ac929b30646442b452ef242/pynxtools_xrd-0.0.8-py3-none-any.whl", hash = "sha256:5e870cd0ebe3f0d88c50e461ef5fb4fb2fb1dc538961b32ae65191f93996f646", size = 15623, upload-time = "2026-03-20T22:22:00.242Z" },
+    { url = "https://files.pythonhosted.org/packages/8b/bc/ab3323a285c51cb43a369e68639befbc2c27cf4a860aaca195b6560dad27/pynxtools_xrd-0.0.7-py3-none-any.whl", hash = "sha256:a2eb954c83cb2b6f7d227ed8e56e6d26fa1b6dda3f18743f21bff180906fcd28", size = 14832, upload-time = "2025-10-18T10:49:46.51Z" },
 ]
 
 [[package]]
