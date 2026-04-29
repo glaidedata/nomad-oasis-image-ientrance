@@ -79,6 +79,9 @@ plugins = [
   # Materials and AI
   # "nomad-auto-xrd @ git+https://github.com/FAIRmat-NFDI/nomad-auto-xrd@main",
   # "bayesian-optimization-hpt @ git+https://github.com/ka-sarthak/bayesian-optimization-plugin.git@main",
+
+  # developed reader-plugin
+  "nomad-measurements-magnetometry @ git+https://github.com/glaidedata/nomad-measurements-magnetometry.git@v0.2.1"
 ]
 jupyter = ["jupyter-events"]
 gpu-action = []
