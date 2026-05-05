@@ -50,53 +50,6 @@ oasis:
     - francesca.rossi@cnr.it
     - gianluca.landi@cnr.it
     - emanuela.colasante@cnr.it
-    - gianluca,sbardella@uniroma1.it
-    - giovanni.bertoni@cnr.it
-    - luisa.carracciuolo@cnr.it
-    - massimo.urciuolo@cnr.it
-    - a.pedico@inrim.it
-    - d.pugliese@inrim.it
-    - a.airi@inrim.it
-    - i.murataj@inrim.it
-    - francescadechiara@cnr.it
-    - luisa.caracciuolo@cnr.it
-    - ferrario@fbk.eu
-    - alfredo.picano@cnr.it
-    - vittorio.morandi@cnr.it
-    - piera.maccagnani@cnr.it
-    - alessandro.gradone@cnr.it
-    - nicola.gilli@cnr.it
-    - sebastian.brueckner@physik.hu-berlin.de
-    - joseph.rudzinski@physik.hu-berlin.de
-    - abbas.gholami@glaidedata.com
-    - enzo.rotunno@nano.cnr.it
-    - giovanni.bertoni@nano.cnr.it
-    - daniele.duranti@uniroma3.it
-    - marco.sebastiani@uniroma3.it
-    - pietro.zaccagnini@polito.it
-    - giulia.massaglia@polito.it
-    - gianluca.sbardella@uniroma1.it
-    - tommaso.salzillo@unibo.it
-    - francesco.valle@cnr.it
-    - francesca.rossi@imem.cnr.it
-    - luca.seravalli@imem.cnr.it
-    - emanuela.colasante@artov.ism.cnr.it
-    - antonio.santagata@ism.cnr.it
-    - gianluca.landi@stems.cnr.it
-    - valentina.gargiulo@stems.cnr.it
-    - massimo.urciuolo@stems.cnr.it
-    - salvatoreethan.panasci@imm.cnr.it
-    - patrick.fiorenza@imm.cnr.it
-    - filippo.giannazzo@imm.cnr.it
-    - marino.lavorgna@cnr.it
-    - giulia.massaglia@polito.it
-    - roberto.verucchi@cnr.it
-    - lucia.nasi@cnr.it
-    - gennaro.gentile@cnr.it
-    - francesca.rossi@cnr.it
-    - gianluca.landi@cnr.it
-    - emanuela.colasante@cnr.it
-    - gianluca.sbardella@uniroma1.it
     - giovanni.bertoni@cnr.it
     - luisa.carracciuolo@cnr.it
     - massimo.urciuolo@cnr.it
@@ -130,7 +83,20 @@ oasis:
     - mariagrazia.raucci@cnr.it
     - mirko.seri@cnr.it
     - alberto.riminucci@cnr.it
+    - ilaria.bergenti@cnr.it
+    - francesca.degiorgio@cnr.it
+    - cristiano.albonetti@cnr.it
+    - denis.gentili@cnr.it
+    - lucagnoli@cnr.it
+    - marco.natali@cnr.it
+    - ambra.guarnaccio@cnr.it
+    - marialucia.pace@cnr.it
+    - paola.depadova@artov.ism.cnr.it
+    - daniele.catone@cnr.it
+    - erica.magliano@cnr.it
 
+
+  
 north:
   jupyterhub_crypt_key: "978bfb2e13a8448a253c629d8dd84ff89587f30e635b753153960930cad9d36d"
   tools:
