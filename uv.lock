@@ -2234,6 +2234,15 @@ wheels = [
 ]
 
 [[package]]
+name = "kaitaistruct"
+version = "0.11"
+source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/27/b8/ca7319556912f68832daa4b81425314857ec08dfccd8dbc8c0f65c992108/kaitaistruct-0.11.tar.gz", hash = "sha256:053ee764288e78b8e53acf748e9733268acbd579b8d82a427b1805453625d74b", size = 11519, upload-time = "2025-09-08T15:46:25.037Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4a/4a/cf14bf3b1f5ffb13c69cf5f0ea78031247790558ee88984a8bdd22fae60d/kaitaistruct-0.11-py2.py3-none-any.whl", hash = "sha256:5c6ce79177b4e193a577ecd359e26516d1d6d000a0bffd6e1010f2a46a62a561", size = 11372, upload-time = "2025-09-08T15:46:23.635Z" },
+]
+
+[[package]]
 name = "kaleido"
 version = "0.2.1"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
@@ -3599,8 +3608,8 @@ requires-dist = [
     { name = "nomad-lab", extras = ["infrastructure"], specifier = ">=1.4.0" },
     { name = "nomad-material-processing", marker = "extra == 'plugins'", specifier = "==1.0.5" },
     { name = "nomad-measurements", marker = "extra == 'plugins'", specifier = "==1.3.5" },
-    { name = "nomad-measurements-afm", marker = "extra == 'plugins'", git = "https://github.com/glaidedata/nomad-measurements-afm.git?rev=v0.1.0" },
-    { name = "nomad-measurements-magnetometry", marker = "extra == 'plugins'", git = "https://github.com/glaidedata/nomad-measurements-magnetometry.git?rev=v0.2.1" },
+    { name = "nomad-measurements-afm", marker = "extra == 'plugins'", git = "https://github.com/glaidedata/nomad-measurements-afm.git?rev=v0.1.1" },
+    { name = "nomad-measurements-magnetometry", marker = "extra == 'plugins'", git = "https://github.com/glaidedata/nomad-measurements-magnetometry.git?rev=v0.2.2" },
     { name = "nomad-normalizer-plugin-bandstructure", marker = "extra == 'plugins'", specifier = "==1.0.4" },
     { name = "nomad-normalizer-plugin-dos", marker = "extra == 'plugins'", specifier = "==1.0.6" },
     { name = "nomad-normalizer-plugin-simulation-workflow", marker = "extra == 'plugins'", specifier = "==1.0.4" },
@@ -3777,7 +3786,7 @@ wheels = [
 [[package]]
 name = "nomad-measurements-afm"
 version = "0.1.0"
-source = { git = "https://github.com/glaidedata/nomad-measurements-afm.git?rev=v0.1.0#50c8892d33e4ca3ac6cbc2b86bed3a1a9a3fee0d" }
+source = { git = "https://github.com/glaidedata/nomad-measurements-afm.git?rev=v0.1.1#790be3160788ef6e4baff80f1eba6aeeaac23d74" }
 dependencies = [
     { name = "nomad-lab" },
     { name = "readers-ientrance" },
@@ -3786,7 +3795,7 @@ dependencies = [
 [[package]]
 name = "nomad-measurements-magnetometry"
 version = "0.2.1"
-source = { git = "https://github.com/glaidedata/nomad-measurements-magnetometry.git?rev=v0.2.1#99584ea7c054cb509f71c6bdeea109672a7fd57f" }
+source = { git = "https://github.com/glaidedata/nomad-measurements-magnetometry.git?rev=v0.2.2#bed19932f5385ee7877652fdb7ce3e6476478744" }
 dependencies = [
     { name = "nomad-lab" },
     { name = "readers-ientrance" },
@@ -5947,8 +5956,9 @@ wheels = [
 [[package]]
 name = "readers-ientrance"
 version = "0.1.0"
-source = { git = "https://github.com/glaidedata/readers-ientrance.git?rev=main#aaae571bbd466b226f26121112cdac7fcbdaa28d" }
+source = { git = "https://github.com/glaidedata/readers-ientrance.git?rev=v0.1.0#c3d40dfb43d2891e88986a9182ca8da890a433f7" }
 dependencies = [
+    { name = "kaitaistruct" },
     { name = "pandas" },
     { name = "pydantic" },
 ]
