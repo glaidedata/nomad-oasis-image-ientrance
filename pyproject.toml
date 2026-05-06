@@ -82,7 +82,7 @@ plugins = [
   "fabrication-utilities @ git+https://github.com/sd-fbk/Fabrication-utilities_dev.git@main",
   "characterization-utilities @ git+https://github.com/sd-fbk/Characterization-utilities_DEV.git@main",
   
-  "nomad-measurements-magnetometry @ git+https://github.com/glaidedata/nomad-measurements-magnetometry.git@v0.2.1"
+  "nomad-measurements-magnetometry @ git+https://github.com/glaidedata/nomad-measurements-magnetometry.git@v0.2.2"
 ]
 jupyter = ["jupyter-events"]
 gpu-action = []
