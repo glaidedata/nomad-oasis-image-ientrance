@@ -24,8 +24,6 @@ dependencies = [
   "nomad-lab[infrastructure]>=1.4.0",
   "setuptools",
   "numpy<2.4",  # numba (required by pynxtools-em) needs numpy 2.3 or less
-  "fabrication-utilities @ git+https://github.com/sd-fbk/Fabrication-utilities_dev.git@oasis-integration",
-  "characterization-utilities @ git+https://github.com/sd-fbk/Characterization-utilities_DEV.git@oasis-integration",
 ]
 
 
@@ -81,6 +79,9 @@ plugins = [
   # "bayesian-optimization-hpt @ git+https://github.com/ka-sarthak/bayesian-optimization-plugin.git@main",
 
   # developed reader-plugin
+  "fabrication-utilities @ git+https://github.com/sd-fbk/Fabrication-utilities_dev.git@v2.1.0",
+  "characterization-utilities @ git+https://github.com/sd-fbk/Characterization-utilities_DEV.git@v1.9.6",
+
   "nomad-measurements-magnetometry @ git+https://github.com/glaidedata/nomad-measurements-magnetometry.git@v0.2.2",
   "nomad-measurements-afm @ git+https://github.com/glaidedata/nomad-measurements-afm.git@v0.1.1"
 ]
