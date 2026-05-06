@@ -580,7 +580,7 @@ wheels = [
 [[package]]
 name = "characterization-utilities"
 version = "1.9.5"
-source = { git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=main#5d7b356b58b5ce29a78898a048cd731c8f195b52" }
+source = { git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=main#881c3c9b0aaacf63f3814a43bfaa6acf806f67bc" }
 dependencies = [
     { name = "fabrication-utilities" },
     { name = "nomad-lab" },
