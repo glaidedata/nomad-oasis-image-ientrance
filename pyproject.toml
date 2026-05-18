@@ -84,7 +84,7 @@ plugins = [
 
   "nomad-measurements-magnetometry @ git+https://github.com/glaidedata/nomad-measurements-magnetometry.git@v0.2.3",
   "nomad-measurements-afm @ git+https://github.com/glaidedata/nomad-measurements-afm.git@v0.2.0",
-  "nomad-measurements-thermal @ git+https://github.com/glaidedata/nomad-measurements-thermal.git@v0.1.0"
+  "nomad-measurements-thermal @ git+https://github.com/glaidedata/nomad-measurements-thermal.git@v0.1.1"
 ]
 jupyter = ["jupyter-events"]
 gpu-action = []
