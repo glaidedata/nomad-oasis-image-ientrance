@@ -1910,6 +1910,14 @@ wheels = [
 ]
 
 [[package]]
+name = "ientrance-instruments"
+version = "0.1.0"
+source = { git = "https://github.com/glaidedata/nomad-ientrance-instruments.git?rev=v0.1.0#327529d75ff61f1914b0d65b8a194bc46c557e91" }
+dependencies = [
+    { name = "nomad-lab" },
+]
+
+[[package]]
 name = "ifes-apt-tc-data-modeling"
 version = "0.3.2"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
@@ -3567,6 +3575,7 @@ jupyter = [
 plugins = [
     { name = "characterization-utilities" },
     { name = "fabrication-utilities" },
+    { name = "ientrance-instruments" },
     { name = "nomad-analysis" },
     { name = "nomad-external-eln-integrations" },
     { name = "nomad-material-processing" },
@@ -3603,6 +3612,7 @@ plugins = [
 requires-dist = [
     { name = "characterization-utilities", marker = "extra == 'plugins'", git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=v1.9.6" },
     { name = "fabrication-utilities", marker = "extra == 'plugins'", git = "https://github.com/sd-fbk/Fabrication-utilities_dev.git?rev=v2.1.0" },
+    { name = "ientrance-instruments", marker = "extra == 'plugins'", git = "https://github.com/glaidedata/nomad-ientrance-instruments.git?rev=v0.1.0" },
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
     { name = "nomad-analysis", marker = "extra == 'plugins'", specifier = "==0.2.1" },
     { name = "nomad-external-eln-integrations", marker = "extra == 'plugins'", git = "https://github.com/glaidedata/nomad-external-eln-integrations?rev=feature%2Felabftw-extension" },
