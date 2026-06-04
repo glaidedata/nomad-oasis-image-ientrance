@@ -579,8 +579,8 @@ wheels = [
 
 [[package]]
 name = "characterization-utilities"
-version = "1.9.6"
-source = { git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=v1.9.6#9523619e90364ce089625505640edb03ff9cad48" }
+version = "2.0.0"
+source = { git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=v2.0.0#b7b8fdd4593fd6cc4d7584aec7d1526977bfc885" }
 dependencies = [
     { name = "fabrication-utilities" },
     { name = "nomad-lab" },
@@ -3610,7 +3610,7 @@ plugins = [
 
 [package.metadata]
 requires-dist = [
-    { name = "characterization-utilities", marker = "extra == 'plugins'", git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=v1.9.6" },
+    { name = "characterization-utilities", marker = "extra == 'plugins'", git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=v2.0.0" },
     { name = "fabrication-utilities", marker = "extra == 'plugins'", git = "https://github.com/sd-fbk/Fabrication-utilities_dev.git?rev=v2.1.0" },
     { name = "ientrance-instruments", marker = "extra == 'plugins'", git = "https://github.com/glaidedata/nomad-ientrance-instruments.git?rev=v0.1.0" },
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
