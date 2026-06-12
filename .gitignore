@@ -1,3 +1,6 @@
+# nomad.yaml containing users data
+configs/nomad.yaml_with_users_data
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

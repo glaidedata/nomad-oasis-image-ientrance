@@ -82,12 +82,11 @@ plugins = [
   "fabrication-utilities @ git+https://github.com/sd-fbk/Fabrication-utilities_dev.git@v2.1.0",
   "characterization-utilities @ git+https://github.com/sd-fbk/Characterization-utilities_DEV.git@v2.0.0",
 
-  "nomad-measurements-magnetometry @ git+https://github.com/glaidedata/nomad-measurements-magnetometry.git@v0.2.6",
-  "nomad-measurements-afm @ git+https://github.com/glaidedata/nomad-measurements-afm.git@v0.4.0",
-  "nomad-measurements-thermal @ git+https://github.com/glaidedata/nomad-measurements-thermal.git@v0.2.1",
-  "nomad-measurements-raman @ git+https://github.com/glaidedata/nomad-measurements-raman.git@v0.1.0",
+  "nomad-measurements-magnetometry @ git+https://github.com/glaidedata/nomad-measurements-magnetometry.git@v0.3.2",
+  "nomad-measurements-afm @ git+https://github.com/glaidedata/nomad-measurements-afm.git@v0.5.3",
+  "nomad-measurements-thermal @ git+https://github.com/glaidedata/nomad-measurements-thermal.git@v0.3.2",
+  "nomad-measurements-raman @ git+https://github.com/glaidedata/nomad-measurements-raman.git@v0.2.3",
 
-  "ientrance-instruments @ git+https://github.com/glaidedata/nomad-ientrance-instruments.git@v0.1.0"
 ]
 jupyter = ["jupyter-events"]
 gpu-action = []
