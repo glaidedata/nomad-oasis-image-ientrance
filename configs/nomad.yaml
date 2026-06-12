@@ -1,0 +1,43 @@
+services:
+  api_host: "localhost"
+  api_base_path: "/nomad-oasis"
+  upload_limit: 1000
+  upload_members_group_search_enabled: true
+
+oasis:
+  is_oasis: true
+  uses_central_user_management: true
+  allowed_users:
+
+
+
+
+  
+north:
+  jupyterhub_crypt_key: "978bfb2e13a8448a253c629d8dd84ff89587f30e635b753153960930cad9d36d"
+  tools:
+    options:
+      jupyter:
+        image: ghcr.io/glaidedata/nomad-oasis-image-ientrance/jupyter:main
+
+meta:
+  deployment: "oasis"
+  deployment_url: "https://my-oasis.org/api"
+  maintainer_email: "me@my-oasis.org"
+
+logstash:
+  enabled: false
+
+temporal:
+  enabled: true
+
+mongo:
+  db_name: nomad_oasis_v1
+
+elastic:
+  entries_index: nomad_oasis_entries_v1
+  materials_index: nomad_oasis_materials_v1
+
+plugins:
+  exclude:
+    - parsers/fhi-vibes
