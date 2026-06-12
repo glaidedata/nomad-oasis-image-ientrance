@@ -3575,6 +3575,7 @@ jupyter = [
 plugins = [
     { name = "characterization-utilities" },
     { name = "fabrication-utilities" },
+    { name = "ientrance-instruments" },
     { name = "nomad-analysis" },
     { name = "nomad-external-eln-integrations" },
     { name = "nomad-material-processing" },
@@ -3612,6 +3613,7 @@ plugins = [
 requires-dist = [
     { name = "characterization-utilities", marker = "extra == 'plugins'", git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=v2.0.0" },
     { name = "fabrication-utilities", marker = "extra == 'plugins'", git = "https://github.com/sd-fbk/Fabrication-utilities_dev.git?rev=v2.1.0" },
+    { name = "ientrance-instruments", marker = "extra == 'plugins'", git = "https://github.com/glaidedata/nomad-ientrance-instruments.git?rev=v0.1.2" },
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
     { name = "nomad-analysis", marker = "extra == 'plugins'", specifier = "==0.2.1" },
     { name = "nomad-external-eln-integrations", marker = "extra == 'plugins'", git = "https://github.com/glaidedata/nomad-external-eln-integrations?rev=feature%2Felabftw-extension" },
