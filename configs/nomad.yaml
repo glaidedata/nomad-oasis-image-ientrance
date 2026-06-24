@@ -103,8 +103,9 @@ oasis:
     - enzo.rotunno@unimore.it
     - 52de995e-b8b4-4884-b1f7-1b4f1507719b
     - chiara.dionigi@cnr.it
+    - valentina.bertana@polito.it
 
-  
+
 north:
   jupyterhub_crypt_key: "978bfb2e13a8448a253c629d8dd84ff89587f30e635b753153960930cad9d36d"
   tools:
