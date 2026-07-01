@@ -8,100 +8,156 @@ oasis:
   is_oasis: true
   uses_central_user_management: true
   allowed_users:
-    - a.pedico@inrim.it
-    - d.pugliese@inrim.it
-    - a.airi@inrim.it
-    - i.murataj@inrim.it
-    - francescadechiara@cnr.it
+    # - a.pedico@inrim.it
+    - 189bc9db-254d-4b63-bf3a-f56fbbadbf87
+    # - d.pugliese@inrim.it
+    - edc7b698-1878-4e0a-a6cf-16a930a591fd
+    # - a.airi@inrim.it
+    - 65a7152e-610c-4a9a-a7fd-f724bbffe40d
+    # - i.murataj@inrim.it
+    - a994066a-7dfb-46d2-a9a8-4e3a758077fc
+    # - francescadechiara@cnr.it
+    - 3a1fc681-009c-4a26-8b5b-5e5de52ec028
     - luisa.caracciuolo@cnr.it
-    - ferrario@fbk.eu
-    - alfredo.picano@cnr.it
+    # - ferrario@fbk.eu
+    - 86c3ade3-9e13-4b8a-964b-9c79948dd6cb
+    # - alfredo.picano@cnr.it
+    - 5616557c-54b8-4301-b216-d8da1aeb9ed8
     - vittorio.morandi@cnr.it
-    - piera.maccagnani@cnr.it
-    - alessandro.gradone@cnr.it
-    - nicola.gilli@cnr.it
-    - sebastian.brueckner@physik.hu-berlin.de
-    - joseph.rudzinski@physik.hu-berlin.de
-    - abbas.gholami@glaidedata.com
-    - enzo.rotunno@nano.cnr.it
+    # - piera.maccagnani@cnr.it
+    - abfd38e9-a457-4155-a64d-ea7dad89b210
+    # - alessandro.gradone@cnr.it
+    - 4064742e-8d46-4c9c-a8dd-39afcd90d3af
+    # - nicola.gilli@cnr.it
+    - 80455a1f-3f49-4221-ad1e-9c27d8b674b1
+    # - sebastian.brueckner@physik.hu-berlin.de
+    - 23d36214-b186-430e-a8cc-bf2c495947e5
+    # - joseph.rudzinski@physik.hu-berlin.de
+    - 7c85bdf1-8b53-40a8-81a4-04f26ff56f29
+    # - abbas.gholami@glaidedata.com
+    - 52de995e-b8b4-4884-b1f7-1b4f1507719b
+    # - enzo.rotunno@nano.cnr.it
+    - 3f9a72cb-6b9b-437a-9d88-f46e1818678e
     - giovanni.bertoni@nano.cnr.it
-    - daniele.duranti@uniroma3.it
+    # - daniele.duranti@uniroma3.it
+    - b569bd49-bd8b-4512-a87a-3214e25bca1e
     - marco.sebastiani@uniroma3.it
     - pietro.zaccagnini@polito.it
-    - giulia.massaglia@polito.it
-    - gianluca.sbardella@uniroma1.it
+    # - giulia.massaglia@polito.it
+    - ffc42cda-17ba-4cf1-8378-b34eb1c84035
+    # - gianluca.sbardella@uniroma1.it
+    - 13603abd-36a5-452f-85a7-2a58cd815125
     - tommaso.salzillo@unibo.it
-    - francesco.valle@cnr.it
-    - francesca.rossi@imem.cnr.it
-    - luca.seravalli@imem.cnr.it
+    # - francesco.valle@cnr.it
+    - 7d7754db-532e-4bb0-aebc-a76b2b235424
+    # - francesca.rossi@imem.cnr.it
+    - 0101e219-024e-4e1b-96bf-dc90e77c7c21
+    # - luca.seravalli@imem.cnr.it
+    - a1facdd1-2012-485c-b0bf-a93475f2e4af
     - emanuela.colasante@artov.ism.cnr.it
-    - antonio.santagata@ism.cnr.it
-    - gianluca.landi@stems.cnr.it
+    # - antonio.santagata@ism.cnr.it
+    - d4e14ae1-6e91-4c62-9654-b0611e04be12
+    # - gianluca.landi@stems.cnr.it
+    - bd318af5-06e4-40be-8a1a-44a2083ac616
     - valentina.gargiulo@stems.cnr.it
     - massimo.urciuolo@stems.cnr.it
-    - salvatoreethan.panasci@imm.cnr.it
+    # - salvatoreethan.panasci@imm.cnr.it
+    - 5ea34685-1783-4e31-a632-755e4c2def15
     - patrick.fiorenza@imm.cnr.it
     - filippo.giannazzo@imm.cnr.it
-    - marino.lavorgna@cnr.it
+    # - marino.lavorgna@cnr.it
+    - 1b12dc41-d416-41cd-b763-2d945f7cccf9
     - diego.pugliese@polito.it
     - roberto.verucchi@cnr.it
-    - lucia.nasi@cnr.it
-    - gennaro.gentile@cnr.it
+    # - lucia.nasi@cnr.it
+    - 4fb76c49-8593-41ef-98f3-db0b113d8a52
+    # - gennaro.gentile@cnr.it
+    - 285c332b-7502-4ae4-8844-9655c2352179
     - francesca.rossi@cnr.it
     - gianluca.landi@cnr.it
-    - emanuela.colasante@cnr.it
-    - giovanni.bertoni@cnr.it
-    - luisa.carracciuolo@cnr.it
-    - massimo.urciuolo@cnr.it
-    - alfredo.ronca@cnr.it
+    # - emanuela.colasante@cnr.it
+    - 940378c9-e177-4d10-a044-ca78c5ef2a04
+    # - giovanni.bertoni@cnr.it
+    - 8838a1fa-48f3-420c-99dc-49de16e4caa2
+    # - luisa.carracciuolo@cnr.it
+    - 4393509d-7d59-4e9f-86f7-78f54ed16d3c
+    # - massimo.urciuolo@cnr.it
+    - a6c17cee-ca3b-47ad-b1ef-55bbc8cf6ca8
+    # - alfredo.ronca@cnr.it
+    - 653899c5-4493-4092-ade1-121e31dedb6d
     - mandeep.singh@cnr.it
     - giacomo.spisni@polito.it
     - marialaura.dilorenzo@cnr.it
-    - loredana.schiavo@cnr.it
-    - gennaro.rollo@cnr.it
+    # - loredana.schiavo@cnr.it
+    - 698183b2-35e8-45bd-8ab9-0388682699ed
+    # - gennaro.rollo@cnr.it
+    - 48d1b233-01e9-4119-8016-14e2a9f58db2
     - pietro.russo@cnr.it
-    - mariamelia.stanzione@cnr.it
+    # - mariamelia.stanzione@cnr.it
+    - 3b149cb3-0b6b-4bbd-b8bc-0a7a31aea422
     - elena.ferrari@cnr.it
     - gianfranco.carotenuto@cnr.it
-    - roberto.desantis@cnr.it
-    - nicologalvani@cnr.it
-    - valentina.abbate@cnr.it
-    - mario.deangioletti@cnr.it
+    # - roberto.desantis@cnr.it
+    - b3c9a43b-97f7-4a96-9758-6bb3e27df2b6
+    # - nicologalvani@cnr.it
+    - 285c45fd-0ca9-43c4-b3a9-2f0bb327a38b
+    # - valentina.abbate@cnr.it
+    - badd8fed-ae28-4023-8ee8-b31e578249ea
+    # - mario.deangioletti@cnr.it
+    - 052c4200-da9e-415b-9c0c-7c4ee4c7202c
     - federico.olivieri@cnr.it
-    - roberto.avolio@cnr.it
-    - mariaemanuela.errico@cnr.it
+    # - roberto.avolio@cnr.it
+    - b8b2aa4f-4b17-4199-b1f8-b06d73933b00
+    # - mariaemanuela.errico@cnr.it
+    - d719fa36-6325-4666-a1a9-eb4ad19c6caa
     - eugenio.amendola@cnr.it
-    - chiara.santillo@cnr.it
+    # - chiara.santillo@cnr.it
+    - c8685774-ca58-42ad-8349-bedd38cc8e49
     - daniela.capuano@cnr.it
     - mariarosaria.marcedula@cnr.it
     - annamaria.sabetta@cnr.it
-    - letizia.verdolotti@cnr.it
-    - giovannagiuliana.buonocore@cnr.it
-    - salvatoreethan.panasci@cnr.it
-    - fabiana.tescione@cnr.it
-    - marianna.pannico@cnr.it
-    - mariagrazia.raucci@cnr.it
-    - mirko.seri@cnr.it
-    - alberto.riminucci@cnr.it
-    - ilaria.bergenti@cnr.it
-    - francesca.degiorgio@cnr.it
-    - cristiano.albonetti@cnr.it
-    - denis.gentili@cnr.it
-    - lucagnoli@cnr.it
-    - marco.natali@cnr.it
-    - ambra.guarnaccio@cnr.it
+    # - letizia.verdolotti@cnr.it
+    - 596ce3a5-2a0c-4547-84c1-6d2f1a635641
+    # - giovannagiuliana.buonocore@cnr.it
+    - 8b0afb32-0c09-47d4-9d45-fd60f07c4bc8
+    # - salvatoreethan.panasci@cnr.it
+    - e5388777-eb7e-49fb-b998-fcd3092da8a4
+    # - fabiana.tescione@cnr.it
+    - 2ee91a56-b2bb-42da-86dc-2001c6f70beb
+    # - marianna.pannico@cnr.it
+    - e2a67ab8-f072-4118-8c10-cffff8b458ec
+    # - mariagrazia.raucci@cnr.it
+    - 04fe3b98-dad4-4b50-a698-bb1e19cf0fb9
+    # - mirko.seri@cnr.it
+    - 15f00313-cbc0-4091-99ac-481568b9895c
+    # - alberto.riminucci@cnr.it
+    - 5774a7b2-0ce1-4ff8-9ad3-d58e75c02490
+    # - ilaria.bergenti@cnr.it
+    - 32d3994a-64df-4168-ac1c-cd28cf6e0f06
+    # - francesca.degiorgio@cnr.it
+    - 5f45d152-faef-4a9d-920f-dab12d79a1a3
+    # - cristiano.albonetti@cnr.it
+    - b959d6d5-f6eb-4bd1-aa5d-f0cd008b8052
+    # - denis.gentili@cnr.it
+    - eb952dac-78f1-4808-8bfc-5de1b9f1cdba
+    # - lucagnoli@cnr.it
+    - 9fd50160-76c7-47f1-9af7-0519bc8b6360
+    # - marco.natali@cnr.it
+    - eae43904-d63a-4370-9745-808fd5eb98f4
+    # - ambra.guarnaccio@cnr.it
+    - 6e59273c-49bb-4c58-9069-e16d509314fe
     - marialucia.pace@cnr.it
     - paola.depadova@artov.ism.cnr.it
     - daniele.catone@cnr.it
     - erica.magliano@cnr.it
-    - leonardo.poletti@unipr.it
+    # - leonardo.poletti@unipr.it
+    - 0d3122b0-0a93-4732-962a-79886e1edcba
     - ggottard@fbk.eu
     - micaela.castellino@polito.it
     - mara.serrapede@polito.it
     - katarzyna.bejtka@polito.it
     - msingh@fbk.eu
     - enzo.rotunno@unimore.it
-    - 52de995e-b8b4-4884-b1f7-1b4f1507719b
     - chiara.dionigi@cnr.it
     - valentina.bertana@polito.it
 
