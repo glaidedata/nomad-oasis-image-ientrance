@@ -89,7 +89,7 @@ plugins = [
   "nomad-measurements-ald @ git+https://github.com/glaidedata/nomad-measurements-ald.git@v0.2.1",
   "nomad-measurements-dls @ git+https://github.com/glaidedata/nomad-measurements-dls.git@v0.2.1",
 
-  "ientrance-instruments @ git+https://github.com/glaidedata/nomad-ientrance-instruments.git@v0.1.2"
+  "ientrance-instruments @ git+https://github.com/glaidedata/nomad-ientrance-instruments.git@v0.1.3"
 
 ]
 jupyter = ["jupyter-events"]
