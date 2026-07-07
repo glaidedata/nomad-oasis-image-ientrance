@@ -579,8 +579,8 @@ wheels = [
 
 [[package]]
 name = "characterization-utilities"
-version = "2.1.0"
-source = { git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=v2.1.0#69f666dfede9ca1db25134b17a4283d2b3d05b6e" }
+version = "2.2.0"
+source = { git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=v2.2.0#6e6130a94fcd8deb36c6c0d6d93eb3604f063ba8" }
 dependencies = [
     { name = "fabrication-utilities" },
     { name = "nomad-lab" },
@@ -1317,8 +1317,8 @@ wheels = [
 
 [[package]]
 name = "fabrication-utilities"
-version = "2.2.0"
-source = { git = "https://github.com/sd-fbk/Fabrication-utilities_dev.git?rev=v2.2.0#5f462af9fdc2b690981e457ba7e7698dfaedfa62" }
+version = "2.3.1"
+source = { git = "https://github.com/sd-fbk/Fabrication-utilities_dev.git?rev=v2.3.1#b786f79ccc7d3fcf969b4bb844db6936a7fe09cc" }
 dependencies = [
     { name = "nomad-lab" },
     { name = "python-magic-bin", marker = "sys_platform == 'win32'" },
@@ -3609,8 +3609,8 @@ plugins = [
 
 [package.metadata]
 requires-dist = [
-    { name = "characterization-utilities", marker = "extra == 'plugins'", git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=v2.1.0" },
-    { name = "fabrication-utilities", marker = "extra == 'plugins'", git = "https://github.com/sd-fbk/Fabrication-utilities_dev.git?rev=v2.2.0" },
+    { name = "characterization-utilities", marker = "extra == 'plugins'", git = "https://github.com/sd-fbk/Characterization-utilities_DEV.git?rev=v2.2.0" },
+    { name = "fabrication-utilities", marker = "extra == 'plugins'", git = "https://github.com/sd-fbk/Fabrication-utilities_dev.git?rev=v2.3.1" },
     { name = "ientrance-instruments", marker = "extra == 'plugins'", git = "https://github.com/glaidedata/nomad-ientrance-instruments.git?rev=v0.1.3" },
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
     { name = "nomad-analysis", marker = "extra == 'plugins'", specifier = "==0.2.1" },
